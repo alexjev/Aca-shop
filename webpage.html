@@ -9,48 +9,48 @@
 
 <body>
     <header>
-        <h1>ACA Shop</h1>
-        <div class="container">
-            <form action="search.php" method="POST">
-                <label for="search"></label>
-                <input type="text" name="seach" placeholder="Search" id="search">
-                <input type="submit" value="Search">
-            </form>
+        <div class="header-container">
+            <h1>Welcome To My ACA Shop</h1>
+            <div>
+                <a href="https://store.steampowered.com/login/?redir=&redir_ssl=1">Login</a>
+                <a href="https://store.steampowered.com/join/?redir=%3Fsnr%3D1_60_4__global-header&snr=1_60_4__62">Registration
+                </a>
+            </div>
         </div>
     </header>
-    <section>
-        <div class="form-container">
-            <a href="https://store.steampowered.com/login/?redir=&redir_ssl=1">Login</a>
-            <br><br>
-            <a href="https://store.steampowered.com/join/?redir=%3Fsnr%3D1_60_4__global-header&snr=1_60_4__62">Registration
-            </a>
-        </div>
-    </section>
-    <section>
+    <div class="sreach-container">
+        <form action="search.php" method="POST">
+            <label for="search">Components:</label>
+            <input type="text" name="seach" id="search">
+            <input type="submit" value="Search">
+        </form>
+    </div>
+    <section class="image">
         <h4>Images</h4>
-        <div><img src="img/Laptop.jpg" alt="The image of Laptop"></div>
-        <div><img src="img/Phone.jpg" alt="The image of Phone"></div>
-        <div><img src="img/Tablet.jpg" alt="The image of Tablet"></div>
+        <div><img src="img/Laptop.jpg" alt="The image of Laptop" class="responsive"></div>
+        <div><img src="img/Phone.jpg" alt="The image of Phone" class="responsive"></div>
+        <div><img src="img/Tablet.jpg" alt="The image of Tablet" class="responsive"></div>
     </section>
-    <section>
-        <br><br>
+    <section class="category">
+        <h3>Category</h3>
+        <br>
         <a href="/Phone.html">
-            <img src="page_images/Phone.jpg" />
+            <img src="page_images/Phone.jpg" class="responsive" />
         </a>
-        <br><br>
+        <br>
         <a href="/Laptops.html">
-            <img src="page_images/Laptop.jpg"></a>
-        <br><br>
+            <img src="page_images/Laptop.jpg" class="responsive"></a>
+        <br>
         <a href="/Tablets.html">
-            <img src="page_images/Tablet.jpg"></a>
-        <br><br>
+            <img src="page_images/Tablet.jpg" class="responsive"></a>
+        <br>
         <a href="/Pc's.html">
-            <img src="page_images/PC.jpg"></a>
-        <br><br>
+            <img src="page_images/PC.jpg" class="responsive"></a>
+        <br>
         <a href="/Games.html">
-            <img src="page_images/Video games.jpg"></a>
+            <img src="page_images/Video games.jpg" class="responsive"></a>
     </section>
-    <section>
+    <section class="lorem">
         <h2>O nama</h2>
         <p>
             Lorem Ipsum је једноставно модел текста који се користи у штампарској и словослагачкој индустрији. Lorem
@@ -70,12 +70,11 @@
         </ul>
     </section>
     <footer>
-        <div>
+        <div class="links">
             <h2>Brzi linkovi</h2>
             <p>Contact information: <a href="mailto:Alex@gmail.com">Alex@gmail.com</a>.</p>
             <p>My club:<a href="www.alex.com">www.alex.com</a></p>
             <p>Complain:<a href="www.complain.com">www.complain.com</a></p>
-            <br><br>
         </div>
         <div>
             <h2>informations</h2>
