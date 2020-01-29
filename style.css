@@ -106,21 +106,60 @@ h3 {
   padding: 0;
 }
 
+.adress {
+  margin: 0;
+  padding: 0;
+}
+
+.adress ul {
+  margin: 0;
+  padding: 0;
+  color: white;
+  background-color: #307d99;
+}
+
 .lorem {
-  padding: 1em;
+  padding: 0;
+  background-color: #307d99;
 }
 
 h2 {
   margin-top: 0;
   margin-bottom: 0;
+  background-color: #307d99;
 }
 
 h2,
 p {
   margin-top: 0;
   margin-bottom: 0;
+  background-color: #307d99;
+  color: white;
 }
 
-.links {
+.link {
   margin-top: 0;
+  color: white;
+  font-weight: bold;
+  background-color: #919394;
+}
+
+h4 {
+  background-color: #919394;
+  color: white;
+  text-align: left;
+  padding: 0;
+}
+
+.info {
+  background-color: #919394;
+}
+
+.info p {
+  background-color: #919394;
+}
+
+.email {
+  background-color: #919394;
+  color: white;
 }
