@@ -27,40 +27,79 @@
     </div>
     <section class="image">
         <h4>Images</h4>
-        <div><img src="img/Laptop.jpg" alt="The image of Laptop" class="responsive"></div>
-        <div><img src="img/Phone.jpg" alt="The image of Phone" class="responsive"></div>
-        <div><img src="img/Tablet.jpg" alt="The image of Tablet" class="responsive"></div>
+
+        <div class="row">
+            <div class="column">
+                <img src="img/Laptop.jpg" alt="The image of Laptop" style="width:100%">
+            </div>
+            <div class="column">
+                <img src="img/Phone.jpg" alt="The image of Phone" style="width:100%">
+            </div>
+            <div class="column">
+                <img src="img/Tablet.jpg" alt="The image of Tablet" style="width:100%">
+            </div>
+        </div>
     </section>
-    <section class="category">
+
+    <div class="category-wrapper clearfix">
         <h3>Category</h3>
-        <br>
-        <a href="/Phone.html">
-            <img src="page_images/Phone.jpg" class="responsive" />
-        </a>
-        <br>
-        <a href="/Laptops.html">
-            <img src="page_images/Laptop.jpg" class="responsive"></a>
-        <br>
-        <a href="/Tablets.html">
-            <img src="page_images/Tablet.jpg" class="responsive"></a>
-        <br>
-        <a href="/Pc's.html">
-            <img src="page_images/PC.jpg" class="responsive"></a>
-        <br>
-        <a href="/Games.html">
-            <img src="page_images/Video games.jpg" class="responsive"></a>
-    </section>
-    <section class="lorem">
-        <h2>O nama</h2>
-        <p>
-            Lorem Ipsum је једноставно модел текста који се користи у штампарској и словослагачкој индустрији. Lorem
-            ipsum је био стандард за модел текста још од 1500. године, када је непознати штампар узео кутију са словима
-            и сложио их како би направио узорак књиге. Не само што је овај модел опстао пет векова, него је чак почео да
-            се користи и у електронским медијима, непроменивши се. Популаризован је шездесетих година двадесетог века
-            заједно са листовима летерсета који су садржали Lorem Ipsum пасусе, а данас са софтверским пакетом за прелом
-            као што је Aldus PageMaker који је садржао Lorem Ipsum верзије.
-        </p>
-    </section>
+        <section class="links">
+            <ul>
+                </li>
+                <a href="/Phone.html">Phone</a>
+                </li>
+                <li>
+                    <a href="/Laptop.html">Laptop</a>
+                </li>
+                <li>
+                    <a href="/Table.html">Tablet</a>
+                </li>
+                <li>
+                    <a href="/PC.html">PC</a>
+                </li>
+                <li>
+                    <a href="/Video Games.html">Video Games</a>
+                </li>
+            </ul>
+        </section>
+        <section class="category">
+            <div class="column-3">
+                <img src="page_images/Phone.jpg" alt="The Samsung Phone" style="width:100%">
+            </div>
+            <div class="column-3">
+                <img src="page_images/Laptop.jpg" alt="The Pic Of A Laptop" style="width:100%">
+            </div>
+            <div class="column-3">
+                <img src="page_images/Tablet.jpg" alt="The new pic of tablet" style="width:100%">
+            </div>
+            <div class="column-3">
+                <img src="page_images/PC.jpg" alt="The Pic of PC" style="width:100%">
+            </div>
+            <div class="column-3">
+                <img src="page_images/Video games.jpg" alt="The Pic Of a Video Games" style="width:100%">
+            </div>
+        </section>
+    </div>
+
+
+
+    <div>
+        <section class="lorem">
+            <h2>O nama</h2>
+            <p>
+                Lorem Ipsum је једноставно модел текста који се користи у штампарској и словослагачкој индустрији. Lorem
+                ipsum је био стандард за модел текста још од 1500. године, када је непознати штампар узео кутију са
+                словима
+                и сложио их како би направио узорак књиге. Не само што је овај модел опстао пет векова, него је чак
+                почео да
+                се користи и у електронским медијима, непроменивши се. Популаризован је шездесетих година двадесетог
+                века
+                заједно са листовима летерсета који су садржали Lorem Ipsum пасусе, а данас са софтверским пакетом за
+                прелом
+                као што је Aldus PageMaker који је садржао Lorem Ipsum верзије.
+            </p>
+        </section>
+    </div>
     <section class="adress">
         <h2>Adrese</h2>
         <ul>
@@ -70,26 +109,25 @@
         </ul>
     </section>
     <footer>
-        <div class="link">
-            <h3>Brzi linkovi</h3>
-            <p>Contact information: <a href="mailto:Alex@gmail.com">Alex@gmail.com</a></p>
-            <p>My club:<a href="www.alex.com">www.alex.com</a></p>
-            <p>Complain:<a href="www.complain.com">www.complain.com</a></p>
-        </div>
-        <div class="info">
-            <h4>informations</h4>
-
-            <p>Blog: <a href="https://www.blogger.com">https://www.blogger.com</a></p>
-            <p>Loyalty Programs: <a href="https://www.shopify.com">https://www.shopify.com</a></p>
-        </div>
-        <div class="email">
-            <form action="email" method="POST">
-                <label for="email">Email:</label>
-                <input type="text" name="email" placeholder="dodo@gmai.com" id="email">
-                <input type="submit" value="submit">
-            </form>
-            <br><br>
-            <br><br>
+        <div id="footer">
+            <div class="footer-section">
+                <h3>Brzi linkovi</h3>
+                <br> Contact information: <a href="mailto:Alex@gmail.com">Alex@gmail.com</a><br>
+                <br>My club:<a href="www.alex.com">www.alex.com</a><br>
+                <br>Complain:<a href="www.complain.com">www.complain.com</a><br>
+            </div>
+            <div class="footer-section">
+                <h4>informations</h4>
+                <br>Blog: <a href="https://www.blogger.com">https://www.blogger.com</a><br>
+                <br>Loyalty Programs: <a href="https://www.shopify.com">https://www.shopify.com</a><br>
+            </div>
+            <div class="footer-section">
+                <form action="email" method="POST">
+                    <label for="email">Email:</label>
+                    <input type="text" name="email" placeholder="dodo@gmai.com" id="email">
+                    <input type="submit" value="submit">
+                </form>
+            </div>
         </div>
     </footer>
 </body>
