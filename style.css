@@ -147,12 +147,13 @@ p {
 }
 
 #footer {
-  margin-top: 20px;
+  margin: 0;
 }
 .footer-section {
   float: left;
   width: 33%;
   background-color: red;
+  margin-bottom: 50px;
 }
 
 .link {
